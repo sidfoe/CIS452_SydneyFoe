@@ -59,11 +59,12 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        if(Input.GetKeyDown(KeyCode.Alpha1) && Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            charList[4].BaseAttack();
-            statList[4].SetBasicAttk(10);
-            statList[4].GetBasicAttk();
-        }
+        //was not sure if this was what you meant or not
+        //if(Input.GetKeyDown(KeyCode.Alpha1) && Input.GetKeyDown(KeyCode.Alpha2))
+        //{
+            
+        //    statList[4].SetBasicAttk(10);
+        //    statList[4].GetBasicAttk();
+        //}
     }
 }
