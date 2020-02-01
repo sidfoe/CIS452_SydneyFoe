@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Sydney Foe
+ * GameManager
+ * CIS 452 Assignment 2
+ * Controls the game functions. Spawns the target objects randomly, controls the game countdown, and the creation of the bullseye
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -28,6 +35,9 @@ public class GameManager : MonoBehaviour
     public float playTime = 0;
     private float currentTime = 0;
 
+    public GameObject winText;
+    public GameObject loseText;
+
     // Update is called once per frame
     void Update()
     {
@@ -35,7 +45,7 @@ public class GameManager : MonoBehaviour
         {
             if (spawnAgain == true)
             {
-                time = Random.Range(1, 5);
+                time = Random.Range(1, 4);
                 spawnAgain = false;
                 StartCoroutine("Spawn");
             }
@@ -43,6 +53,19 @@ public class GameManager : MonoBehaviour
             playTime -= Time.deltaTime;
             timeText.text = "Time :" + Mathf.Round(playTime);
             scoreText.text = "Score: " + score;
+        }
+
+        if(playTime <= 0)
+        {
+            if(score >= 12)
+            {
+                winText.SetActive(true);
+            }
+
+            else
+            {
+                loseText.SetActive(true);
+            }
         }
     }
 

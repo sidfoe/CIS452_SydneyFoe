@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Sydney Foe
+ * Target
+ * CIS 452 Assignment 2
+ * Sets up the target super class where targets will draw their behaviour
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

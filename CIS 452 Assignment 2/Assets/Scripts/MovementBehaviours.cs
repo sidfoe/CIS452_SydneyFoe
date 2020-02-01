@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Sydney Foe
+ * MovementBehaviour
+ * CIS 452 Assignment 2
+ * Sets up the different movement behaviour classes; popup, plaingo, and stopandgo. Each performs their title
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

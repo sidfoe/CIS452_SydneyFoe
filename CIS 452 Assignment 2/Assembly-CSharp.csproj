@@ -78,38 +78,33 @@
     <Compile Include="Assets\Scripts\Strategy Pattern with GameObjects\EnemySpider.cs" />
     <Compile Include="Assets\Scripts\Strategy Pattern with GameObjects\Interfaces.cs" />
     <Compile Include="Assets\Scripts\Strategy Pattern with GameObjects\SpecialAbilityBehavior.cs" />
-    <Compile Include="Assets\Scripts\Strategy Pattern\AttackBehavior.cs" />
-    <Compile Include="Assets\Scripts\Strategy Pattern\Enemy.cs" />
-    <Compile Include="Assets\Scripts\Strategy Pattern\EnemySimulator.cs" />
-    <Compile Include="Assets\Scripts\Strategy Pattern\Interfaces.cs" />
-    <Compile Include="Assets\Scripts\Strategy Pattern\SpecialAbilityBehavior.cs" />
     <Compile Include="Assets\Scripts\Target.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Unity Projects/CIS 452 Assignment 2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/Unity Projects/CIS 452 Projects/CIS452_SydneyFoe/CIS 452 Assignment 2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/Unity Projects/CIS 452 Assignment 2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/Unity Projects/CIS 452 Projects/CIS452_SydneyFoe/CIS 452 Assignment 2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Unity Projects/CIS 452 Assignment 2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Unity Projects/CIS 452 Projects/CIS452_SydneyFoe/CIS 452 Assignment 2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Unity Projects/CIS 452 Assignment 2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/Unity Projects/CIS 452 Projects/CIS452_SydneyFoe/CIS 452 Assignment 2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/Unity Projects/CIS 452 Assignment 2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/Unity Projects/CIS 452 Projects/CIS452_SydneyFoe/CIS 452 Assignment 2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Unity Projects/CIS 452 Assignment 2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Unity Projects/CIS 452 Projects/CIS452_SydneyFoe/CIS 452 Assignment 2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Unity Projects/CIS 452 Assignment 2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/Unity Projects/CIS 452 Projects/CIS452_SydneyFoe/CIS 452 Assignment 2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Unity Projects/CIS 452 Assignment 2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Unity Projects/CIS 452 Projects/CIS452_SydneyFoe/CIS 452 Assignment 2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Unity Projects/CIS 452 Assignment 2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/Unity Projects/CIS 452 Projects/CIS452_SydneyFoe/CIS 452 Assignment 2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Unity Editors/2019.2.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

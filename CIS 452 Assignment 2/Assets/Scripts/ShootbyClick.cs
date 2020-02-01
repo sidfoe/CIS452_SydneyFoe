@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Sydney Foe
+ * ShootbyCLick
+ * CIS 452 Assignment 2
+ * Destroys the target when it is clicked by the mouse, like a gun at the carnival game
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
