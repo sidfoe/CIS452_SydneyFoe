@@ -31,11 +31,6 @@ public class Cube : Moveable
         sizeCheck = adjust;
     }
 
-    public Cube()
-    {
-        description = "Cube";
-    }
-
     public override float ChangeSize()
     {
         return .25f;
@@ -79,6 +74,13 @@ public class Cube : Moveable
         if (col.gameObject.CompareTag("3"))
         {
             obj = new Size3(obj);
+            adjust = obj.ChangeSize();
+            Destroy(col.gameObject);
+        }
+
+        if (col.gameObject.CompareTag("4"))
+        {
+            obj = new MinusSize(obj);
             adjust = obj.ChangeSize();
             Destroy(col.gameObject);
         }

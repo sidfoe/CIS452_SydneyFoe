@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
     public Text timeText;
     public float playTime;
-    private float currentTime = 0;
+    public float goal;
 
     public static bool canPlay = false;
 
@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
 
         if (canPlay == false && playTime <= 0)
         {
-            if(Sphere.sizeCheck >= 1.8 || Cube.sizeCheck >= 1.8)
+            if(Sphere.sizeCheck >= goal || Cube.sizeCheck >= goal)
             {
                 win.SetActive(true);
             }

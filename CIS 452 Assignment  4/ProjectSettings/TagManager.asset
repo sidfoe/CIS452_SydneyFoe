@@ -10,6 +10,7 @@ TagManager:
   - sizeText
   - win
   - lose
+  - 4
   layers:
   - Default
   - TransparentFX

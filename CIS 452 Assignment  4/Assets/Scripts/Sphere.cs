@@ -31,11 +31,6 @@ public class Sphere : Moveable
         sizeCheck = adjust;
     }
 
-    public Sphere()
-    {
-        description = "Sphere";
-    }
-
     public override float ChangeSize()
     {
         return .25f;
@@ -81,6 +76,13 @@ public class Sphere : Moveable
         if (col.gameObject.CompareTag("3"))
         {
             obj = new Size3(obj);
+            adjust = obj.ChangeSize();
+            Destroy(col.gameObject);
+        }
+
+        if (col.gameObject.CompareTag("4"))
+        {
+            obj = new MinusSize(obj);
             adjust = obj.ChangeSize();
             Destroy(col.gameObject);
         }
