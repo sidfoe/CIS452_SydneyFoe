@@ -2006,8 +2006,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 58.5, y: 118.899994}
-  m_SizeDelta: {x: 569.5, y: 80.3}
+  m_AnchoredPosition: {x: -7, y: 136}
+  m_SizeDelta: {x: 569.5, y: 109.82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1143927720
 MonoBehaviour:
@@ -2034,13 +2034,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Goal is to get size of 1.0
+  m_Text: "Goal is to get size of 1.0\n before time runs out"
 --- !u!222 &1143927721
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2209,7 +2209,7 @@ MonoBehaviour:
     Collect Colored Capsules
     to grow
 
-    Avoid black ones, they shrink'
+    Black capsules shrink you'
 --- !u!222 &1197149751
 CanvasRenderer:
   m_ObjectHideFlags: 0

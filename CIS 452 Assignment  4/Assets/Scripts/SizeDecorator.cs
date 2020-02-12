@@ -4,8 +4,5 @@ using UnityEngine;
 
 public abstract class SizeDecorator : Moveable
 {
-    public override float ChangeSize()
-    {
-        throw new System.NotImplementedException();
-    }
+    public abstract override float ChangeSize();
 }
