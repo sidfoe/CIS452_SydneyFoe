@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Sydney Foe
+ * GameManager
+ * Assignment 4
+ * Sets up timer and size and their text. It checks to see if the player wins and shows text for that
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;

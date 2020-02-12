@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/*
+ * Sydney Foe
+ * Sphere
+ * Assignment 4
+ * Moves the object and checks to see if it ran into a capsule and what decorator to add. Has size variable for display and check.
+ * Also adds the base size of the object
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

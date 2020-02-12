@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Sydney Foe
+ * ButtonScript
+ * Assignment 4
+ * Controls buttons and spwans the prefabs for the cube and sphere when clicked
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

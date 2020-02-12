@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Sydney Foe
+ * Size2
+ * Assignment 4
+ * Sets object to pass to the next decorator. Adds size change in change size function
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
