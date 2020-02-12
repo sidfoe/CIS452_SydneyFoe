@@ -15,9 +15,4 @@ public class Size3 : SizeDecorator
     {
         return .25f + mov.ChangeSize();
     }
-
-    public override string getDescription()
-    {
-        return mov.GetDescription() + ", + 3";
-    }
 }
