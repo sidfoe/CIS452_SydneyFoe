@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Sydney Foe
+ * Assignment 10
+ * BallPool
+ * Creates pool of balls. Sets up pools so I can make multiple, adds things pool.
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

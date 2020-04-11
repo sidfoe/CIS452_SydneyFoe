@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Sydney Foe
+ * Assignment 10
+ * GameManager
+ * Handles the games. Keeps track of how many balls are left, the score, and if you have won or lost. Also starts the game.
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;

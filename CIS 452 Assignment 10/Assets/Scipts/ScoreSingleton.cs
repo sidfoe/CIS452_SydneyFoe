@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Sydney Foe
+ * Assignment 10
+ * ScoreSingleton
+ * Sets up the score handler. Displays score to screen, also a function to add the points to the score.
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;

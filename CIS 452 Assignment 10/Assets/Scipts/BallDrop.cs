@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Sydney Foe
+ * Assignment 10
+ * BallDrop
+ * allows player to drop the ball on a click. and when it reaches the bottom it  spawns a new one using the object pool.
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Sydney Foe
+ * Assignment 10
+ * Result
+ * Sees if ball has landed in the bottom, and adds that score to the overall score. Then spawns the next ball.
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
